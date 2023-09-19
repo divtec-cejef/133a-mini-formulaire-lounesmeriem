@@ -36,9 +36,26 @@
                <option value="10.jpg">Arrière-plan10</option>
            </select>
        </li>
+       <li>
+           <fieldset>
+               <legend>Genre</legend>
+               <label>
+                   <input type="radio" name="genre" value="f"/>
+                   <span>Femme</span>
+               </label>
+               <label>
+                   <input type="radio" name="genre"  value="h" />
+                   <span>Homme</span>
+               </label>
+               <label>
+                   <input type="radio" name="genre" value="n"/>
+                   <span>Ne se prononce pas</span>
+               </label>
+           </fieldset>
+       </li>
         <li>
     <label  for="email">E-mail</label>
-    <input id="email" name="email" type="email" autofocus >
+    <input id="email" name="email" type="email" autofocus required >
         </li>
         <li>
     <label for="mot de passe">Mot de passe</label>
@@ -48,8 +65,13 @@
     <label for="confirmer mot de passe">Confirmer mot de passe</label>
     <input id="confirmer mot de passe" name="confirmer mot de passe" type="password">
        </li>
+       <label>
+           <input type="checkbox" name="connect" >
+           <span>Rester connecté</span>
+       </label>
         <li>
-    <button>Créer un compte </button>
+            <button>Créer un compte </button>
+            <a href="#">Annuler</a>
        </li>
    </ul>
 </form>

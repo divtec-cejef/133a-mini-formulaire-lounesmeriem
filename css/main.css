@@ -81,3 +81,23 @@ select {
     font-size: inherit;
     color: inherit;
 }
+/*pour les radios et chekbox*/
+label input{
+    display: inline;
+    width: auto;
+}
+fieldset{
+    border: 2px solid #2b2d42;
+}
+fieldset legend{
+    font-weight: bold;
+    padding: 0 .5em;
+}
+fieldset label{
+    margin: 1em 0;
+    font-weight: normal;
+}
+fieldset input:checked +span,
+fieldset label:hover > span {
+    font-weight: bold;
+}
