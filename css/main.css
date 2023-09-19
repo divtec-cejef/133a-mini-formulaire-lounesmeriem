@@ -6,7 +6,7 @@ html {
     font-family: Arial, sans-serif;
     font-size: 100%;
     font-weight: 400;
-    color: #2c3e50;
+    color: #2b2d42;
     background-color: #ecf0f1   ;
 }
 
@@ -70,3 +70,14 @@ label {
     cursor: pointer;
 }
 
+input,
+select {
+    border: 2px solid #2b2d42;
+    padding:1em;
+    width: 100%;
+    /*force l'heritage des styles de police depuis body*/
+    /*c'est l'obliger a prendre les paramètres du body, text,coleur */
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
