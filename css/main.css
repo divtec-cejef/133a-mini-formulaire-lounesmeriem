@@ -81,6 +81,14 @@ select {
     font-size: inherit;
     color: inherit;
 }
+/*pour les champs invalid*/
+input[type="email"]:invalid{
+    border-color: #e74c3c;
+}
+/*pour les champs valides*/
+input:valid{
+    border-color:darkgreen;
+}
 /*pour les radios et chekbox*/
 label input{
     display: inline;
